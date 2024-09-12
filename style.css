@@ -1,0 +1,59 @@
+#grid1{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:1px;
+    padding: 20px;
+
+    
+}
+#im{
+    width:200px;
+    height:250px;
+    margin-bottom: 10px;
+}
+#card1{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#t1{
+    margin-bottom: 5px;
+    color: gainsboro;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#no{
+    color: black;
+    font-size: 20px;
+}
+#t2{
+    color:gainsboro;
+    font-size: 10px;
+    font-weight: bold;
+}
+#ti{
+    margin-bottom: 10px;
+}
+#de{
+    color: grey;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 2px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+#star{
+    color:white;
+    background-color: green;
+    border-radius:20px ;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+#la{
+    margin-bottom: 10px;
+}
